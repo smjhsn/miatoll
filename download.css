@@ -1,0 +1,95 @@
+*{
+    color: grey;
+}
+.footer-home{
+    margin-top: 50px;
+}
+.footer-home a:link,
+.footer-home a:visited{
+    text-decoration: none;
+    color: grey;
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 10px;
+    transition: background, 0.4s;
+    
+}
+.footer-home a:hover,
+.footer-home a:active{
+    color: aliceblue;
+    background-color: grey;
+}
+.footer-home p{
+    margin: 50px auto;
+    color: rgb(98, 98, 98);
+
+}
+footer{
+    background-color: rgb(229, 229, 229);
+}
+.footer-home .fb:hover,
+.footer-home .fb:active{
+    color: aliceblue;
+    background-image: linear-gradient(rgb(22, 119, 255),rgb(13, 79, 173));
+    border-color: rgb(22, 119, 255);
+}
+.footer-home .insta:hover,
+.footer-home .insta:active{
+    color: aliceblue;
+    background-image: linear-gradient(rgb(247, 32, 103),rgb(197, 30, 86));
+    border-color: rgb(247, 32, 103);
+}
+.footer-home .twitter:hover,
+.footer-home .twitter:active{
+    color: aliceblue;
+    background-image: linear-gradient(rgb(30, 169, 255),rgb(20, 111, 169));
+    border-color: rgb(30, 169, 255);
+}
+footer h5{
+    color: grey;
+}
+/*-----------------------------------------------*/
+/*-----------------main-section------------------*/
+/*-----------------------------------------------*/
+
+.android{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 40px;
+    padding: 30px;
+    box-shadow: 0 3px 2px 3px rgba(156, 156, 156, 0.616);
+}
+.android-version {
+    text-align: center;
+    margin-top: 20px;
+}
+.android-version a:link,
+.android-version a:visited{
+    text-decoration: none;
+    color: rgb(133, 133, 133);
+    border: 1px solid rgb(253, 253, 253);
+    border-radius: 15px;
+    padding: 5px;
+    transition: border,border-radius,padding, 0.3s;
+}
+.android-version a:hover,
+.android-version a:active{
+    color: rgb(255, 255, 255);
+    background-color: grey;
+    border: 1px solid grey;
+    border-radius: 15px;
+    padding: 5px;
+
+}
+.section-one{
+    padding-top: 50px;
+}
+.section-one h2{
+        background-color: rgb(243, 243, 243);
+        padding: 20PX;
+}
+.android-version h3{
+    padding-bottom: 10px;
+}
+.dis{
+    pointer-events: none;
+}

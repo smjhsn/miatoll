@@ -1,0 +1,85 @@
+h1,h2,h3{
+    text-transform: uppercase;
+}
+.navbar-home{
+    color: grey;
+}
+.section-one{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.407),rgba(0, 0, 0, 0.396)), url(img/benjamin-raffetseder-4PBz2TZ3xSU-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100hv;
+    color: aliceblue;
+    padding-top: 70px;
+}
+.section-one h1{
+    padding-top: 10px;
+    font-size: 250%;
+    padding-bottom: 20px;
+}
+.btn{
+    margin-bottom: 16px;
+}
+.section-two h2{
+    margin: 20px;
+    color: grey;
+}
+.section-two p{
+    color: grey;
+    box-shadow: 0 3px 2px 5px rgba(156, 156, 156, 0.616);
+    border-radius: 10px;
+    padding: 10px;
+}
+.section-three img{
+    width: 50%;
+    margin: 30px auto
+}
+.footer-home{
+    margin-top: 50px;
+}
+.footer-home a:link,
+.footer-home a:visited{
+    text-decoration: none;
+    color: grey;
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 10px;
+    transition: background, 0.4s;
+    
+}
+.footer-home a:hover,
+.footer-home a:active{
+    color: aliceblue;
+    background-color: grey;
+}
+.footer-home p{
+    margin: 50px auto;
+    color: rgb(98, 98, 98);
+
+}
+footer{
+    background-color: rgb(229, 229, 229);
+}
+.footer-home .fb:hover,
+.footer-home .fb:active{
+    color: aliceblue;
+    background-image: linear-gradient(rgb(22, 119, 255),rgb(13, 79, 173));
+    border-color: rgb(22, 119, 255);
+}
+.footer-home .insta:hover,
+.footer-home .insta:active{
+    color: aliceblue;
+    background-image: linear-gradient(rgb(247, 32, 103),rgb(197, 30, 86));
+    border-color: rgb(247, 32, 103);
+}
+.footer-home .twitter:hover,
+.footer-home .twitter:active{
+    color: aliceblue;
+    background-image: linear-gradient(rgb(30, 169, 255),rgb(20, 111, 169));
+    border-color: rgb(30, 169, 255);
+}
+footer h5{
+    color: grey;
+}
+/*--------------media query---------------*/
+
